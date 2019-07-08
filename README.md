@@ -21,7 +21,7 @@
             transition: .5s;
         }
         .box:hover img{
-            /* 直接通過box來觸發反應 */
+            /* 直接通過box來觸發反應，根據區塊大小決定反應範圍 */
             transform: scale(1.5);
             /* 圖片放大效果 */
         }
