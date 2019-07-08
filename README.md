@@ -21,7 +21,9 @@
             transition: .5s;
         }
         .box:hover img{
+            /* 直接通過box來觸發反應 */
             transform: scale(1.5);
+            /* 圖片放大效果 */
         }
 
         .fill {
